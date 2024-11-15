@@ -1,0 +1,25 @@
+$exampleData = [
+    'gamers' => [
+        ['name' => 'John Doe', 'email' => 'john@example.com', 'adress' => '123 Main St', 'gender' => 'Male', 'occupation' => 'Software Engineer'],
+        ['name' => 'Jane Smith', 'email' => 'jane@example.com', 'adress' => '456 Elm Ave', 'gender' => 'Female', 'occupation' => 'Graphic Designer'],
+        ['name' => 'Mike Johnson', 'email' => 'mike@example.com', 'adress' => '789 Oak Ln', 'gender' => 'Male', 'occupation' => 'Data Scientist']
+    ],
+    
+    'gamer_game' => [
+        ['gamer_id' => 1, 'game_id' => 1, 'gamer_tag' => 'JohnThePro', 'hours_all_time' => 1000, 'hours_last_week' => 50, 'achivements_percent' => 75, 'level' => 40],
+        ['gamer_id' => 2, 'game_id' => 2, 'gamer_tag' => 'JaneGamer', 'hours_all_time' => 800, 'hours_last_week' => 30, 'achivements_percent' => 60, 'level' => 35],
+        ['gamer_id' => 3, 'game_id' => 3, 'gamer_tag' => 'MikeMaster', 'hours_all_time' => 1200, 'hours_last_week' => 70, 'achivements_percent' => 85, 'level' => 45]
+    ],
+    
+    'games' => [
+        ['name' => 'Epic Quest', 'release' => 2018],
+        ['name' => 'Cyber Realm', 'release' => 2020],
+        ['name' => 'Virtual Warriors', 'release' => 2019]
+    ],
+    
+    'game_genres' => [
+        ['id' => 1, 'name' => 'Action'],
+        ['id' => 2, 'name' => 'Strategy'],
+        ['id' => 3, 'name' => 'Role Playing']
+    ]
+];
