@@ -1,5 +1,5 @@
 //name, email, adress, gender, occupation
-    const ITEMS => [
+    $gamers = [
         ['John Doe', 'john@example.com', '123 Main St', 'Male', 'Software Engineer'],
         ['Jane Smith', 'jane@example.com', '456 Elm Ave', 'Female', 'Graphic Designer'],
         ['Mike Johnson', 'mike@example.com', '789 Oak Ln', 'Male', 'Data Scientist']
@@ -14,15 +14,15 @@
 
     //name, release date, genre_id
     $games = [
-        ['Epic Quest', 2018, 0],
+        ['Epic Quest', 2018, 1],
         ['Cyber Realm', 2020, 2],
         ['Virtual Warriors', 2019, 3],
-        ['bacon, 32, 3'],
+        ['bacon', 32, 3'],
         ['bacon deluxe', 320, 2],
         ['bacon digital delux edition', 1822, 4],
         ['bacon golden edition', 320, 4],
         ['bacon founders edition', 321, 1],
-        ['bacon collectors edition', 2025, 3],
+        ['bacon collectors edition', 2025, 3]
     ],
     
     $genres = [
