@@ -34,7 +34,8 @@ class GamerController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $gamer = Gamer::find($id);
+        return  view('gamers.show', compact('gamer'));
     }
 
     /**
@@ -42,7 +43,8 @@ class GamerController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $gamer = Gamer::find($id);
+        return view('gamers.edit', compact('gamer'));
     }
 
     /**

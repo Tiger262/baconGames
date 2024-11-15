@@ -4,25 +4,24 @@
 <h1>Játékok</h1>
 <div>
     @include('success')
-    <a href="{{ route('games.create') }}" title="Új">Új hozzáadása</a>
-	@foreach($games as $game)
-        <table>
-            <tr>
-                <th>#</th>
-                <th>Játék neve:</th>
-            </tr>
-            <div class="row {{ $loop->iteration % 2 == 0 ? 'even' : 'odd' }}">
+    <a href="{{ route('games.create') }}" title="Új hozzáadása" class="new">+</a>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Játék neve:</th>
+        </tr>
+	    @foreach($games as $game)
+            
             <tr>
                 <td>
                     {{$game->id}}
                 </td>
                 <td>
-                    {{$game->name}}
+                <a href="{{route('games.show', $game->id)}}">{{$game->name}}</a>
                 </td>
             </tr>
-        
-            </div>
-        </table>
-	@endforeach
+            
+        @endforeach
+    </table>
 </div>
 @endsection

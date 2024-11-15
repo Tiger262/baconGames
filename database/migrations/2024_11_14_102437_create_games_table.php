@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->integer('release');
             $table->unsignedBigInteger('genre_id');
-            $table->foreign('genre_id')->references('id')->on('game_genres');
+            $table->foreign('genre_id')->references('id')->on('genres');
             $table->timestamps();
         });
     }

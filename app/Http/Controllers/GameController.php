@@ -44,6 +44,7 @@ class GameController extends Controller
     {
         $game  = Game::find($id);
         $game->name = $request->input('name');
+        $game->release = $request->input('release');
         $game->save();
 
         return redirect()->route('games.index')->with('success', "{$game->name} sikeresen módosítva");
@@ -54,6 +55,8 @@ class GameController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $game = Game::find($id);
+        $game->delete();
+        return redirect()->route('games.index')->with('success', "Sikeresen törölve");
     }
 }
