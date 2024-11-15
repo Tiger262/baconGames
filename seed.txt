@@ -1,22 +1,26 @@
-
+//name, email, adress, gender, occupation
     const ITEMS => [
-        ['name' => 'John Doe', 'email' => 'john@example.com', 'adress' => '123 Main St', 'gender' => 'Male', 'occupation' => 'Software Engineer'],
-        ['name' => 'Jane Smith', 'email' => 'jane@example.com', 'adress' => '456 Elm Ave', 'gender' => 'Female', 'occupation' => 'Graphic Designer'],
-        ['name' => 'Mike Johnson', 'email' => 'mike@example.com', 'adress' => '789 Oak Ln', 'gender' => 'Male', 'occupation' => 'Data Scientist']
+        ['John Doe', 'john@example.com', '123 Main St', 'Male', 'Software Engineer'],
+        ['Jane Smith', 'jane@example.com', '456 Elm Ave', 'Female', 'Graphic Designer'],
+        ['Mike Johnson', 'mike@example.com', '789 Oak Ln', 'Male', 'Data Scientist']
     ],
 
-//gamer_id, game_id, gamer_tag
-    const ITEMS => [
+//gamer_id, game_id, gamer_tag, hours_all_time, hours_last_week, achivement_percent, level
+    $gamegamer = [
         [1, 1, 'JohnThePro', 1000, 50, 75, 40],
-        ['gamer_id' => 2, 'game_id' => 2, 'gamer_tag' => 'JaneGamer', 'hours_all_time' => 800, 'hours_last_week' => 30, 'achivements_percent' => 60, 'level' => 35],
-        ['gamer_id' => 3, 'game_id' => 3, 'gamer_tag' => 'MikeMaster', 'hours_all_time' => 1200, 'hours_last_week' => 70, 'achivements_percent' => 85, 'level' => 45]
+        [2, 2, 'JaneGamer', 800, 30, 60, 35],
+        [3, 3, 'MikeMaster', 1200, 70, 85, 45]
     ],
 
     //name, release date, genre_id
     $games = [
         ['Epic Quest', 2018, 0],
         ['Cyber Realm', 2020, 2],
-        ['Virtual Warriors', 2019, 3]
+        ['Virtual Warriors', 2019, 3],
+        ['bacon, 32, 2'],
+        ['bacon deluxe', 320, 1],
+        ['bacon golden edition', 320, 3],
+        ['bacon founders edition', 321, 0]
     ],
     
     $genres = [
