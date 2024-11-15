@@ -19,7 +19,7 @@
         ['Virtual Warriors', 2019, 3],
         ['bacon, 32, 3'],
         ['bacon deluxe', 320, 2],
-        ['bacon digital delux edition', 1822, 4]
+        ['bacon digital delux edition', 1822, 4],
         ['bacon golden edition', 320, 4],
         ['bacon founders edition', 321, 1],
         ['bacon collectors edition', 2025, 3],
